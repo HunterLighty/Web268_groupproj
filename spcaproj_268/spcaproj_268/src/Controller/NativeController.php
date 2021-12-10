@@ -10,12 +10,12 @@ class NativeController extends AppController{
         $this->viewBuilder()->setLayout('nativeuser');
     }
 
-    public function test()
+    public function gallery()
     {
 
     }
 
-    public function testtwo()
+    public function grooming()
     {
         
     }
@@ -25,8 +25,16 @@ class NativeController extends AppController{
 
     }
 
-    public function aboutus()
+    public function humane()
     {
         
     }
+	public function training()
+	{
+		
+	}
+	public function locations()
+	{
+		
+	}
 }
