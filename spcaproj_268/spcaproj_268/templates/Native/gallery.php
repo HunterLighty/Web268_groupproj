@@ -1,45 +1,40 @@
-<!-- Gallery -->
-<div class="row">
-  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-    <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
 
-    <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Wintry Mountain Landscape"
-    />
+<div class="container">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <?php echo $this->Html->image("spca_logo.jpg", ['fullBase' => true, 'alt' => 'Our Logo', 'class'=> 'd-block w-100']);?>
+
+    </div>
+    <div class="carousel-item">
+      <?php echo $this->Html->image("cat1.png", ['fullBase' => true, 'alt' => 'cat', 'class'=> 'd-block w-100']);?>
+    </div>
+    <div class="carousel-item">
+      <?php echo $this->Html->image("dog2.png", ['fullBase' => true, 'alt' => 'Another Dog', 'class'=> 'd-block w-100']);?>
+    </div>
+	<div class="carousel-item">
+      <?php echo $this->Html->image("girl_huggingdog.png", ['fullBase' => true, 'alt' => 'Girl Hugging A Dog', 'class'=> 'd-block w-100']);?>
+    </div>
+	<div class="carousel-item">
+      <?php echo $this->Html->image("lizard1.png", ['fullBase' => true, 'alt' => 'A Lizard', 'class'=> 'd-block w-100']);?>
+    </div>
+	<div class="carousel-item">
+      <?php echo $this->Html->image("twodogs.png", ['fullBase' => true, 'alt' => 'Two Dogs', 'class'=> 'd-block w-100']);?>
+    </div>
+	<div class="carousel-item">
+      <?php echo $this->Html->image("girls_dog.png", ['fullBase' => true, 'alt' => 'Two girls holding a dog', 'class'=> 'd-block w-100']);?>
+    </div>
+	<div class="carousel-item">
+      <?php echo $this->Html->image("dog1.png", ['fullBase' => true, 'alt' => 'A Dog', 'class'=> 'd-block w-100']);?>
+    </div>
   </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Mountains in the Clouds"
-    />
-
-    <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Boat on Calm Water"
-    />
-  </div>
-
-  <div class="col-lg-4 mb-4 mb-lg-0">
-    <img
-      src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Waves at Sea"
-    />
-
-    <img
-      src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
-      class="w-100 shadow-1-strong rounded mb-4"
-      alt="Yosemite National Park"
-    />
-  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<!-- Gallery -->
+</div>

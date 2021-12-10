@@ -11286,3 +11286,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+#carouselExampleControls img {
+
+width: auto;
+
+height: 500px;
+
+max-height: 500px;
+
+}
